@@ -1,0 +1,342 @@
+﻿* {
+	box-sizing: border-box;
+}
+
+
+
+/*====ALTALANOS_ELEMEK====*/
+
+html {
+	font-family: sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: rgb(0, 0, 0);
+	font-size: 1em;
+	
+	
+}
+::-webkit-scrollbar {
+	width: 5px;
+	
+  }
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 2px grey; 
+	border-radius: 10px;
+	display: fixed;
+}
+ ::-webkit-scrollbar-track {
+		position: absolute;
+		right: -3rem;
+		top: -50rem;
+		background: transparent;
+	  }
+  /* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgba(96, 155, 168, 0.9); 
+	border-radius: 10px;
+  }
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: darkblue; 
+  }
+
+body {
+	background-image: url(kepek/bg.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+footer {
+	background-color:  rgba(7, 107, 128, 0.9);
+	margin-top: 2%;
+	font-size: 0.7em;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	position:fixed;
+	bottom: 0;
+	width: 100%;	
+	font-weight: bold;
+	padding: 0;	
+	
+}
+footer p{
+	padding: 5px;
+	margin:0;
+}
+
+
+/*====OLDALELEMEK====*/
+
+div#content {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+article {
+	text-align: justify;
+	background-color: rgba(216, 232, 241, 0.9);
+	padding: 1% 5% 1% 5%;
+	margin: 1%;
+	margin-bottom: 5vh;
+	
+	
+}
+article a {
+	text-decoration: none;
+	color: rgb(0, 65, 126);
+	font-style: oblique;
+
+}
+article table{
+	float:left;
+}
+article table td{
+	padding-right: 10px;
+	vertical-align: middle;
+	padding:10px;
+}
+article img{
+	max-width:72px;
+	box-shadow: 3px 3px 10px rgba(37, 84, 128, 0.5);
+	}
+dl{
+	float:left;
+}
+
+article h3{
+	clear:both;
+	padding-top: 2em;
+	margin-bottom: 0px;
+	text-decoration: underline;
+}
+
+figure {
+	height: fit-content;
+	padding: 1%;
+	background-color: rgba(10, 147, 174, 0.6);
+	text-align: center;
+	margin: 1%;
+	border-radius: 10px;;
+	
+	
+}
+figure p {
+	display: block;
+	background-color: white;
+	padding:7px;
+	border-radius: 30px 0 30px 0;
+	font-style: oblique;
+	font-weight: bolder;
+}
+figure img{
+	border-radius: 30px 0px;
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	
+}
+figure li a#active {
+	background-color: rgba(5, 52, 66, 0.9);
+	color: white;
+}
+figure ul{
+	padding: 0px;
+}
+figure li a:hover, nav li a#active:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(76, 140, 156);
+	border-color: rgb(76, 140, 156);
+	
+}
+figure ul li {
+	padding: 5px;	
+	list-style-type: none;
+	
+	
+}
+
+figure li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	background-color: rgb(232, 240, 242);
+	text-align: center;	
+	text-decoration: none;
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+	border-radius: 15px;
+	padding: 2%;
+}
+
+figcaption {
+	padding: 2%;
+}
+
+table img:hover{
+	transform: scale(1.2);
+}
+table img{
+	transition: 1s;
+	
+}
+
+img {
+	max-width: 100%;
+	}
+
+
+
+
+
+div#top {
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	background-color: rgba(211, 255, 218, 0.9);
+	margin: 1%;
+}
+
+#top table {
+	border: white solid 1px;
+	border-collapse: collapse;
+	padding: 0;
+	margin: 1% auto;
+	width: 100%;
+}
+
+#top table td {
+	border: white solid 1px;
+	padding: 2%;
+}
+.kek{
+	background-color: rgba(10, 147, 174, 0.2);
+}
+.kekit tr:nth-child(odd){
+	background-color: rgba(10, 147, 174, 0.2);
+}
+
+
+
+td{
+	border:none;
+	
+}
+
+table{
+	border-collapse: collapse;
+	
+}
+
+
+
+/*====OSZTALYOK====*/
+
+
+
+span {
+	background-color: rgba(65, 65, 65, 0.2);
+	padding: 2%;
+}
+.kiskep img:hover{
+	transform: scale(1.1);
+}
+.kiskep img{
+	
+	margin: 10px;
+	transition: 1s;
+	
+}
+.row{
+	clear:both;
+}
+.fejleckep
+{
+	background-color: rgba(10, 147, 174, 0.6);
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	text-align: center;
+	padding: 10px;
+	
+}
+.underline{
+	text-decoration: underline;
+}
+
+
+
+
+.fejleckep img {
+	width:50%;
+	max-width:100%;
+	border-radius: 30px 0px;
+	border-style: solid;
+	border-color: rgb(255, 255, 255);
+}
+/*====AZONOSÍTÓK====*/
+#RG{
+	width:5vw;
+}
+
+
+
+/*====RESZPONZIVITAS====*/
+
+@media only screen and (min-width: 600px) {
+	/* tablet */
+	div#content {
+		flex-direction: row;
+	}
+	nav ul {
+		flex-direction: row;
+	}
+	nav ul li {
+		flex-basis: 33.33%;
+	}
+	div#content2 {
+		display: flex;
+		flex-direction: column;
+	}
+	#bottom {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	section {
+		flex-basis: 46%;
+	}
+	#bottom figure {
+		flex-basis: 46%;
+	}
+	#bottom aside {
+		flex-basis: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 768px) {
+	/* számítógép */
+	article {
+		flex-basis: 80%;
+	}
+	figure {
+		flex-basis: 20%;
+	}
+	aside {
+		flex-basis: 25%;
+	}
+	section {
+		flex-basis: 23%;
+	}
+	#bottom figure {
+		flex-basis: 48%;
+	}
+	#bottom aside {
+		flex-basis: 23%;
+	}
+}
